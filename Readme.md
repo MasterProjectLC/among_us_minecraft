@@ -73,7 +73,7 @@ Função.
 #### O do/while
 Para criar a mecânidade de votação, loops tiveram de ser criados para se adaptar à quantidade variável de jogadores no jogo. Assim, um sistema semelhante à um loop "do/while" foi criado, formado pela função principal, um bloco-condição, que checa uma condição usando execute e chama blocos de comandos ajudantes que invocam a função principal novamente após uma curta espera, e um bloco-quebra, que é chamado ao fim do loop.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/Looper.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Looper.png)
 Estrutura marcada com placas para sinalização.
 
 #### O checador
