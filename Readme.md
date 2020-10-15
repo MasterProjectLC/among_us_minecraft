@@ -49,7 +49,7 @@ A maioria das regras segue idêntica ao jogo original. Todas as diferenças est�
 ## Implementação
 A implementação foi feita principalmente pelo uso de "blocos de comando", que podem ser comparados a linhas de código em linguagens de programação convencionais. Foi feito também uso de "redstone", o sistema elétrico do jogo, para a implementação de portas lógicas, certos loops e, de certo modo, funções.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Redstone2.png)
 Redstone utilizada para formar a porta lógica "AND".
 
 ### Comandos principais
@@ -64,29 +64,29 @@ No decorrer do projeto, várias técnicas foram descobertas para facilitar a imp
 #### A função
 A estrutura mais básica e mais essencial do projeto foi, sem dúvida, a função. Apesar de Minecraft oferecer seu próprio sistema de funções (com o commando /function), este necessita a instalação de datapacks. Por isso, um sistema mais rústico foi utilizado, formado por um comando "chamador" da função, que posiciona um bloco ativador na frente dos blocos de comando, e os blocos de comando em si, que formam a função.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Function.png)
 Comando chamador da função.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Function2.png)
 Função.
 
 #### O do/while
 Para criar a mecânidade de votação, loops tiveram de ser criados para se adaptar à quantidade variável de jogadores no jogo. Assim, um sistema semelhante à um loop "do/while" foi criado, formado pela função principal, um bloco-condição, que checa uma condição usando execute e chama blocos de comandos ajudantes que invocam a função principal novamente após uma curta espera, e um bloco-quebra, que é chamado ao fim do loop.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/Looper.png)
 Estrutura marcada com placas para sinalização.
 
 #### O checador
 Minecraft fornece uma opção de blocos de comando contínuos, que são invocados a todo tick. Minecraft também oferece a opção de blocos condicionais, que são chamados apenas quando o anterior for bem-sucedido. Apesar de muito úteis, estes, quando pareados, às vezes não são suficentes, pois em uma situação de "switch/case", ou todos os comandos são executados a todo tick (assim gastando processamento), ou nenhum é chamado. Para evitar este problema, a estrutura "checador" foi criada, que troca os blocos condicionais por um único bloco contínuo com o comando "execute", que, quando bem-sucedido, chama uma função com o resto dos comandos.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Checker.png)
 O checador, sinalizado com placas.
 
 #### A cadeia de conjuntos de comando
 Para o sistema de distribuição de tarefas, foi necessário sortear um jogador aleatório para a obtenção de cada Tarefa do jogo, repetindo a função até que todos os jogadores tiverem a quantidade necessária de Tarefas. A obtenção de tarefas para um jogador, porém, necessita que diversos comandos sejam executados em um mesmo jogador sorteado aleatoriamente.
 Para criar isto, a cadeia de comandos foi criada. A cada "nódulo" da cadeia, um jogador aleatório recebe uma tag "Target" para receber a Tarefa do nódulo seguinte, enquanto que o jogador com a tag do nódulo anterior recebe a sua própria tarefa. Assim, os comandos rodam de forma eficiente e facilmente expandível - para adicionar uma nova tarefa ao jogo, é necessário apenas criar um novo nódulo.
 
-![Imagem](https://github.com/Infinitemarcus/Hackerspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/MasterProjectLC/among_us_minecraft/blob/master/Nodes.png)
 A cadeia de conjuntos de comando.
 
 ## Bugs/problemas conhecidos
