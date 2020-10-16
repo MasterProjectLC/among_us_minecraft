@@ -11,9 +11,9 @@ Para uma explicação sobre o jogo Minecraft, [esta página na Minecraft Wiki](h
 O grupo utilizou o videogame Minecraft[1] para o desenvolvimento principal, com o jogo Among Us[2] e o site Minecraft Wiki[3] como principais recursos de consulta.
 
 Outros recursos utilizados foram:
-*WebFx[4] para a obtenção e conversão de cores no jogo;
-*Gamewith[5] para um melhor detalhamento do sistema de Tarefas do jogo Among Us;
-*PlanetMinecraft[6] para mais informações sobre o sistema de "Bossbars" de Minecraft.
+* WebFx[4] para a obtenção e conversão de cores no jogo;
+* Gamewith[5] para um melhor detalhamento do sistema de Tarefas do jogo Among Us;
+* PlanetMinecraft[6] para mais informações sobre o sistema de "Bossbars" de Minecraft.
 
   
 ## Passo a passo
@@ -106,10 +106,10 @@ Devido à diferença intrínseca de ambos ambientes e às limitações do projet
 * Felipe Bertoni Salvati - Testes
 
 ## Referências/Bibliografia
-[1] Site oficial de Minecraft. Disponível em: https://www.minecraft.net/pt-pt
-[2] Site oficial de Among Us. Disponível em: http://www.innersloth.com/gameAmongUs.php
-[3] Minecraft Wiki. Disponível em: https://minecraft.gamepedia.com/Minecraft_Wiki
-[4] WebFX. Hex to RGB. Disponível em: https://www.webfx.com/web-design/hex-to-rgb/
-[5] Gamewith. Tasks List - Common & Visual Tasks List. Disponível em: https://gamewith.net/among-us-wiki/article/show/22106
-[6] ShelLuser. Setting up a bossbar in Minecraft 1.13. Disponível em: https://www.planetminecraft.com/data-pack/setting-up-a-bossbar-in-minecraft-1-13/
-[7] CHAU, Hamish. Among Us (1.16.3). Disponível em: http://phoenixsc.me/download-links/among-us-1-16-3/
+[1] Site oficial de Minecraft. Disponível em: https://www.minecraft.net/pt-pt  
+[2] Site oficial de Among Us. Disponível em: http://www.innersloth.com/gameAmongUs.php  
+[3] Minecraft Wiki. Disponível em: https://minecraft.gamepedia.com/Minecraft_Wiki  
+[4] WebFX. Hex to RGB. Disponível em: https://www.webfx.com/web-design/hex-to-rgb/  
+[5] Gamewith. Tasks List - Common & Visual Tasks List. Disponível em: https://gamewith.net/among-us-wiki/article/show/22106  
+[6] ShelLuser. Setting up a bossbar in Minecraft 1.13. Disponível em: https://www.planetminecraft.com/data-pack/setting-up-a-bossbar-in-minecraft-1-13/  
+[7] CHAU, Hamish. Among Us (1.16.3). Disponível em: http://phoenixsc.me/download-links/among-us-1-16-3/  
